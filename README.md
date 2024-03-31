@@ -1,7 +1,7 @@
 # dfa_rm
 
 
-![NFA1](Diagrama1.pdf)
+![Diagram1](Diagrama1.pdf)
 
 
-![NFA1](Diagrama2.pdf)
+![Diagram2](Diagrama2.pdf)
