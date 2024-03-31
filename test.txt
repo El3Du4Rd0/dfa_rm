@@ -1,0 +1,28 @@
+% true cases
+dfa("rm-f").
+dfa("rm-i").
+dfa("rm-r").
+dfa("rm-d").
+dfa("rm-v").
+dfa("rm--preserve-root").
+dfa("rm--no-preserve-root").
+dfa("rm--one-file-system").
+dfa("rm--help").
+dfa("rm--version").
+
+% false cases
+dfa("rm-").
+dfa("rm-file").
+dfa("rm-file-system").
+dfa("rm-heap").
+dfa("rm-vvvv").
+dfa("tamales").
+dfa("huevo").
+dfa("frijoles").
+dfa("tortillas").
+dfa("enchiladas").
+dfa("rm--preserve").
+dfa("rm--one").
+dfa("rm--no").
+dfa("rm--pleh").
+dfa("rm--sionver").
