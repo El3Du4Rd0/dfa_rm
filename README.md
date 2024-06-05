@@ -38,9 +38,9 @@ I include a `regex.py` file that test a regular expresion that do the same as my
 
 `r'(\brm-f\b)|(\brm-i\b)|(\brm-r\b)|(\brm-d\b)|(\brm-v\b)|(\brm--preserve-root\b)|(\brm--no-preserve-root\b)|(\brm--one-file-system\b)|(\brm--help\b)|(\brm--version\b)'`
 
-The `r'` represent that the following string is a raw string so it can interpret the `\`.
-The `|` represents a logic or.
-The `\b` represents that the word is a boundary, so it represents one of the valid commands. 
+- The `r'` represent that the following string is a raw string so it can interpret the `\`.
+- The `|` represents a logic or.
+- The `\b` represents that the word is a boundary, so it represents one of the valid commands. 
 
 # Test
 examples of valid commands:
